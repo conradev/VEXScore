@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B3116" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Alliance" representedClassName="VXAlliance" syncable="YES">
+        <attribute name="autonomous" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="blueHanging" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="middleBalls" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="middleBuckys" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="redHanging" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="scoredBalls" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="scoredBuckys" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stashedBalls" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stashedBuckys" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="matchIfBlue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Match" inverseName="blue" inverseEntity="Match" syncable="YES"/>
+        <relationship name="matchIfRed" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Match" inverseName="red" inverseEntity="Match" syncable="YES"/>
+    </entity>
+    <entity name="Match" representedClassName="VXMatch" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="blue" maxCount="1" deletionRule="Cascade" destinationEntity="Alliance" inverseName="matchIfBlue" inverseEntity="Alliance" syncable="YES"/>
+        <relationship name="red" maxCount="1" deletionRule="Cascade" destinationEntity="Alliance" inverseName="matchIfRed" inverseEntity="Alliance" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Alliance" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Match" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

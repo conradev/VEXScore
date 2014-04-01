@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02FC79E18A54B2B0056A065 /* VXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FC79D18A54B2B0056A065 /* VXUtilities.m */; };
+		D055A05718A47DD000D1B5EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D055A05618A47DD000D1B5EA /* Foundation.framework */; };
+		D055A05918A47DD000D1B5EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D055A05818A47DD000D1B5EA /* CoreGraphics.framework */; };
+		D055A05B18A47DD000D1B5EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D055A05A18A47DD000D1B5EA /* UIKit.framework */; };
+		D055A05D18A47DD000D1B5EA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D055A05C18A47DD000D1B5EA /* CoreData.framework */; };
+		D055A0A618A4893300D1B5EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A09A18A4893300D1B5EA /* main.m */; };
+		D055A0A718A4893300D1B5EA /* VXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A09D18A4893300D1B5EA /* VXAppDelegate.m */; };
+		D055A0AA18A4893300D1B5EA /* VXMatchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0A318A4893300D1B5EA /* VXMatchListViewController.m */; };
+		D055A0AB18A4893300D1B5EA /* VXMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0A518A4893300D1B5EA /* VXMatchViewController.m */; };
+		D055A0B818A4899700D1B5EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D055A0B418A4899700D1B5EA /* Images.xcassets */; };
+		D055A0BA18A4899700D1B5EA /* VEXScore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D055A0B618A4899700D1B5EA /* VEXScore.xcdatamodeld */; };
+		D055A0C118A48B0400D1B5EA /* _VXAlliance.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0BE18A48B0400D1B5EA /* _VXAlliance.m */; };
+		D055A0C218A48B0400D1B5EA /* _VXMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0C018A48B0400D1B5EA /* _VXMatch.m */; };
+		D055A0C718A48B5A00D1B5EA /* VXAlliance.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0C418A48B5A00D1B5EA /* VXAlliance.m */; };
+		D055A0C818A48B5A00D1B5EA /* VXMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0C618A48B5A00D1B5EA /* VXMatch.m */; };
+		D055A0CB18A4945800D1B5EA /* VXAllianceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0CA18A4945800D1B5EA /* VXAllianceView.m */; };
+		D055A0CE18A497A100D1B5EA /* VXSteppingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0CD18A497A100D1B5EA /* VXSteppingSlider.m */; };
+		D055A0D118A49D8000D1B5EA /* VXZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = D055A0D018A49D8000D1B5EA /* VXZoneView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D02FC79918A54AE20056A065 /* VXUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXUtilities.h; sourceTree = "<group>"; };
+		D02FC79D18A54B2B0056A065 /* VXUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXUtilities.m; sourceTree = "<group>"; };
+		D055A05318A47DD000D1B5EA /* VEXScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VEXScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D055A05618A47DD000D1B5EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D055A05818A47DD000D1B5EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D055A05A18A47DD000D1B5EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D055A05C18A47DD000D1B5EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D055A07D18A47DD000D1B5EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D055A09A18A4893300D1B5EA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D055A09C18A4893300D1B5EA /* VXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXAppDelegate.h; sourceTree = "<group>"; };
+		D055A09D18A4893300D1B5EA /* VXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXAppDelegate.m; sourceTree = "<group>"; };
+		D055A0A218A4893300D1B5EA /* VXMatchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXMatchListViewController.h; sourceTree = "<group>"; };
+		D055A0A318A4893300D1B5EA /* VXMatchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXMatchListViewController.m; sourceTree = "<group>"; };
+		D055A0A418A4893300D1B5EA /* VXMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXMatchViewController.h; sourceTree = "<group>"; };
+		D055A0A518A4893300D1B5EA /* VXMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXMatchViewController.m; sourceTree = "<group>"; };
+		D055A0B418A4899700D1B5EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D055A0B518A4899700D1B5EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D055A0B718A4899700D1B5EA /* VEXScore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VEXScore.xcdatamodel; sourceTree = "<group>"; };
+		D055A0BD18A48B0400D1B5EA /* _VXAlliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _VXAlliance.h; sourceTree = "<group>"; };
+		D055A0BE18A48B0400D1B5EA /* _VXAlliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _VXAlliance.m; sourceTree = "<group>"; };
+		D055A0BF18A48B0400D1B5EA /* _VXMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _VXMatch.h; sourceTree = "<group>"; };
+		D055A0C018A48B0400D1B5EA /* _VXMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _VXMatch.m; sourceTree = "<group>"; };
+		D055A0C318A48B5A00D1B5EA /* VXAlliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXAlliance.h; sourceTree = "<group>"; };
+		D055A0C418A48B5A00D1B5EA /* VXAlliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXAlliance.m; sourceTree = "<group>"; };
+		D055A0C518A48B5A00D1B5EA /* VXMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXMatch.h; sourceTree = "<group>"; };
+		D055A0C618A48B5A00D1B5EA /* VXMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXMatch.m; sourceTree = "<group>"; };
+		D055A0C918A4945800D1B5EA /* VXAllianceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXAllianceView.h; sourceTree = "<group>"; };
+		D055A0CA18A4945800D1B5EA /* VXAllianceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXAllianceView.m; sourceTree = "<group>"; };
+		D055A0CC18A497A100D1B5EA /* VXSteppingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXSteppingSlider.h; sourceTree = "<group>"; };
+		D055A0CD18A497A100D1B5EA /* VXSteppingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXSteppingSlider.m; sourceTree = "<group>"; };
+		D055A0CF18A49D8000D1B5EA /* VXZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXZoneView.h; sourceTree = "<group>"; };
+		D055A0D018A49D8000D1B5EA /* VXZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXZoneView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D055A05018A47DD000D1B5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055A05918A47DD000D1B5EA /* CoreGraphics.framework in Frameworks */,
+				D055A05D18A47DD000D1B5EA /* CoreData.framework in Frameworks */,
+				D055A05B18A47DD000D1B5EA /* UIKit.framework in Frameworks */,
+				D055A05718A47DD000D1B5EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D055A04A18A47DD000D1B5EA = {
+			isa = PBXGroup;
+			children = (
+				D055A05E18A47DD000D1B5EA /* Classes */,
+				D055A0AC18A4895400D1B5EA /* Resources */,
+				D055A05518A47DD000D1B5EA /* Frameworks */,
+				D055A05418A47DD000D1B5EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D055A05418A47DD000D1B5EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D055A05318A47DD000D1B5EA /* VEXScore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D055A05518A47DD000D1B5EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D055A05618A47DD000D1B5EA /* Foundation.framework */,
+				D055A05818A47DD000D1B5EA /* CoreGraphics.framework */,
+				D055A05A18A47DD000D1B5EA /* UIKit.framework */,
+				D055A05C18A47DD000D1B5EA /* CoreData.framework */,
+				D055A07D18A47DD000D1B5EA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D055A05E18A47DD000D1B5EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D055A09C18A4893300D1B5EA /* VXAppDelegate.h */,
+				D055A09D18A4893300D1B5EA /* VXAppDelegate.m */,
+				D055A0A218A4893300D1B5EA /* VXMatchListViewController.h */,
+				D055A0A318A4893300D1B5EA /* VXMatchListViewController.m */,
+				D055A0A418A4893300D1B5EA /* VXMatchViewController.h */,
+				D055A0A518A4893300D1B5EA /* VXMatchViewController.m */,
+				D055A0C918A4945800D1B5EA /* VXAllianceView.h */,
+				D055A0CA18A4945800D1B5EA /* VXAllianceView.m */,
+				D055A0CF18A49D8000D1B5EA /* VXZoneView.h */,
+				D055A0D018A49D8000D1B5EA /* VXZoneView.m */,
+				D055A0CC18A497A100D1B5EA /* VXSteppingSlider.h */,
+				D055A0CD18A497A100D1B5EA /* VXSteppingSlider.m */,
+				D055A0C318A48B5A00D1B5EA /* VXAlliance.h */,
+				D055A0C418A48B5A00D1B5EA /* VXAlliance.m */,
+				D055A0C518A48B5A00D1B5EA /* VXMatch.h */,
+				D055A0C618A48B5A00D1B5EA /* VXMatch.m */,
+				D02FC79918A54AE20056A065 /* VXUtilities.h */,
+				D02FC79D18A54B2B0056A065 /* VXUtilities.m */,
+				D055A09A18A4893300D1B5EA /* main.m */,
+				D055A0BC18A48B0400D1B5EA /* Generated */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		D055A0AC18A4895400D1B5EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D055A0B418A4899700D1B5EA /* Images.xcassets */,
+				D055A0B518A4899700D1B5EA /* Info.plist */,
+				D055A0B618A4899700D1B5EA /* VEXScore.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		D055A0BC18A48B0400D1B5EA /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				D055A0BD18A48B0400D1B5EA /* _VXAlliance.h */,
+				D055A0BE18A48B0400D1B5EA /* _VXAlliance.m */,
+				D055A0BF18A48B0400D1B5EA /* _VXMatch.h */,
+				D055A0C018A48B0400D1B5EA /* _VXMatch.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D055A05218A47DD000D1B5EA /* VEXScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D055A08E18A47DD000D1B5EA /* Build configuration list for PBXNativeTarget "VEXScore" */;
+			buildPhases = (
+				D055A0BB18A489FF00D1B5EA /* Generate Model Classes */,
+				D055A04F18A47DD000D1B5EA /* Sources */,
+				D055A05018A47DD000D1B5EA /* Frameworks */,
+				D055A05118A47DD000D1B5EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VEXScore;
+			productName = VEXScore;
+			productReference = D055A05318A47DD000D1B5EA /* VEXScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D055A04B18A47DD000D1B5EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VX;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Conrad Kramer";
+			};
+			buildConfigurationList = D055A04E18A47DD000D1B5EA /* Build configuration list for PBXProject "VEXScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D055A04A18A47DD000D1B5EA;
+			productRefGroup = D055A05418A47DD000D1B5EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D055A05218A47DD000D1B5EA /* VEXScore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D055A05118A47DD000D1B5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055A0B818A4899700D1B5EA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D055A0BB18A489FF00D1B5EA /* Generate Model Classes */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Model Classes";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/Resources/mogenerator -m ${SRCROOT}/Resources/VEXScore.xcdatamodeld/VEXScore.xcdatamodel -M ${SRCROOT}/Classes/Generated -H ${SRCROOT}/Classes --template-var arc=true";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D055A04F18A47DD000D1B5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055A0D118A49D8000D1B5EA /* VXZoneView.m in Sources */,
+				D055A0AB18A4893300D1B5EA /* VXMatchViewController.m in Sources */,
+				D055A0C818A48B5A00D1B5EA /* VXMatch.m in Sources */,
+				D055A0BA18A4899700D1B5EA /* VEXScore.xcdatamodeld in Sources */,
+				D055A0CE18A497A100D1B5EA /* VXSteppingSlider.m in Sources */,
+				D055A0A718A4893300D1B5EA /* VXAppDelegate.m in Sources */,
+				D055A0AA18A4893300D1B5EA /* VXMatchListViewController.m in Sources */,
+				D02FC79E18A54B2B0056A065 /* VXUtilities.m in Sources */,
+				D055A0C218A48B0400D1B5EA /* _VXMatch.m in Sources */,
+				D055A0C718A48B5A00D1B5EA /* VXAlliance.m in Sources */,
+				D055A0CB18A4945800D1B5EA /* VXAllianceView.m in Sources */,
+				D055A0C118A48B0400D1B5EA /* _VXAlliance.m in Sources */,
+				D055A0A618A4893300D1B5EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D055A08C18A47DD000D1B5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D055A08D18A47DD000D1B5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D055A08F18A47DD000D1B5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D055A09018A47DD000D1B5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D055A04E18A47DD000D1B5EA /* Build configuration list for PBXProject "VEXScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D055A08C18A47DD000D1B5EA /* Debug */,
+				D055A08D18A47DD000D1B5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D055A08E18A47DD000D1B5EA /* Build configuration list for PBXNativeTarget "VEXScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D055A08F18A47DD000D1B5EA /* Debug */,
+				D055A09018A47DD000D1B5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D055A0B618A4899700D1B5EA /* VEXScore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D055A0B718A4899700D1B5EA /* VEXScore.xcdatamodel */,
+			);
+			currentVersion = D055A0B718A4899700D1B5EA /* VEXScore.xcdatamodel */;
+			path = VEXScore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D055A04B18A47DD000D1B5EA /* Project object */;
+}
